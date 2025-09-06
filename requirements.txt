@@ -1,0 +1,32 @@
+# Core Dependencies
+streamlit>=1.37.0
+google-genai==1.32.0
+sentence-transformers==5.1.0
+faiss-cpu==1.12.0
+faster-whisper==1.2.0
+moviepy==2.2.1
+imageio-ffmpeg==0.6.0
+PyPDF2==3.0.1
+yt-dlp==2025.8.22
+streamlit-authenticator==0.4.2
+youtube-transcript-api==1.2.2
+pyyaml==6.0.2
+numpy==1.26.4
+plotly==5.17.0
+pandas>=2.0.0
+
+# PostgreSQL & Redis Dependencies
+asyncpg==0.28.3
+psycopg2-binary==2.9.8
+redis[hiredis]==5.0.1
+sqlalchemy[asyncio]==2.0.23
+alembic==1.12.1
+
+# Performance & Monitoring
+aiohttp==3.9.1
+uvloop==0.19.0
+prometheus-client==0.19.0
+
+# Additional Utils
+python-dotenv==1.0.0
+tenacity==8.2.3

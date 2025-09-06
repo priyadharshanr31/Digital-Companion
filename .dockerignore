@@ -1,0 +1,36 @@
+
+# Python cache and env files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.local
+.env.prod
+
+# Development files
+.git/
+.gitignore
+README.md
+.DS_Store
+.coverage
+
+# Application files to exclude
+.streamlit/secrets.toml
+*.pkl
+*.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,40 @@
+# Environment files - NEVER commit these!
+.env
+.env.local
+.env.prod
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# User data - contains sensitive information
+users.yaml
+*.pkl
+
+# Cache files
+exact_chunk_cache.pkl
+sem_chunk_cache.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
